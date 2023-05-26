@@ -1,6 +1,6 @@
 # API Meteorológica
 
-Esta é uma API simples que fornece informações meteorológicas atuais e previsões do tempo para diferentes cidades usando a API OpenWeatherMap, os dados retornados serão utilizados no módulo de 'Clima' conforme a `timezone` definida em seu sistema operacional. As informações seriam impressas conforme imagem abaixo:
+Esta é uma API simples que fornece informações meteorológicas atuais e previsões do tempo para diferentes cidades usando a API OpenWeatherMap, os dados retornados serão utilizados no módulo de 'Clima' da [Polybar](https://github.com/polybar/polybar) conforme a `timezone` definida em seu sistema operacional. As informações seriam impressas conforme imagem abaixo:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pigor12/climatempo/main/print.jpeg"/>
