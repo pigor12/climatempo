@@ -1,6 +1,10 @@
 # API Meteorológica
 
-Esta é uma API simples que fornece informações meteorológicas atuais e previsões do tempo para diferentes cidades usando a API OpenWeatherMap.
+Esta é uma API simples que fornece informações meteorológicas atuais e previsões do tempo para diferentes cidades usando a API OpenWeatherMap, os dados retornados serão utilizados no módulo de 'Clima' conforme a `timezone` definida em seu sistema operacional. As informações seriam impressas conforme imagem abaixo:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pigor12/climatempo/main/print.jpeg"/>
+</p>
 
 ## Requisitos
 
@@ -27,6 +31,12 @@ Por padrão, se você não passar nenhum parâmetro de cidade ou país, a API re
 ## Contribuindo
 
 Contribuições são sempre bem-vindas! Por favor, consulte a página de "Issues" para ver os recursos e correções de bugs que precisam ser implementados.
+
+## Referências
+
+1. [Documentação da API OpenWeatherMap](https://openweathermap.org/api)
+2. [Documentação do Flask](https://flask.palletsprojects.com/en/2.0.x/)
+3. [Documentação de requests](https://docs.python-requests.org/en/latest/)
 
 ## Licença
 
